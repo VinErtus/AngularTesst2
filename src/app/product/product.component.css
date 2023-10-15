@@ -1,0 +1,20 @@
+.divider {
+    height: 1px; /* Độ rộng của đường gạch ngang */
+    background-color: #afacac; /* Màu của đường gạch ngang (ở đây là màu đen) */
+    margin: 10px 0; /* Khoảng cách trên và dưới đường gạch ngang */
+}
+:host{
+    display: block;
+    overflow: hidden;
+    height: max-content;
+    border-radius: 1rem;
+    
+}
+img{
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: transform 100ms ease-in-out;
+}
+img:hover{
+    transform: scale(1.02);
+}
